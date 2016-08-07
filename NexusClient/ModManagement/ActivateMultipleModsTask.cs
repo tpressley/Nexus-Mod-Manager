@@ -115,8 +115,10 @@ namespace Nexus.Client.ModManagement
 				{ }
 				if (OverallProgress < OverallProgressMaximum)
 					StepOverallProgress();
+                m_lstModList.Remove(modMod);
 			}
 			return null;
+
 		}
 	}
 }
